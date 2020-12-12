@@ -13,7 +13,7 @@ function setup(){
 
 function draw(){
     background("white");
-    if(position!==undefined){
+    if(pos!==undefined){
     if(keyDown(LEFT_ARROW)){
         writeData(-1,0);
     }
